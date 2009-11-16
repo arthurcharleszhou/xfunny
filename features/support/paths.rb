@@ -10,6 +10,9 @@ module NavigationHelpers
     
     when /the home\s?page/
       '/'
+
+    when /the sign up page/
+      '/signup'
     
     # Add more mappings here.
     # Here is a more fancy example:
